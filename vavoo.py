@@ -9,7 +9,7 @@ PASSWORD = "tuapassword"
 PROXY = f"{LINKMFP}/proxy/hls/manifest.m3u8?api_password={PASSWORD}&d="
 HEADER = "&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/"
 USR = "TUO_USER_GITHUB"
-BRANCH = "TUO_BRANCH_GITHUB"
+REPO = "TUO_BRANCH_GITHUB"
 
 OUTPUT_FILE = "channels_italy.m3u8"
 BASE_URL = "https://vavoo.to"
@@ -291,7 +291,7 @@ def save_m3u8(channels):
         os.remove(OUTPUT_FILE)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(f'#EXTM3U url-tvg="https://github.com/{USR}/{BRANCH}/raw/refs/heads/main/epg.xml"\n\n')
+        f.write(f'#EXTM3U url-tvg="https://github.com/{USR}/{REPO}/raw/refs/heads/main/epg.xml"\n\n')
         user_agent = extract_user_agent()
 
         for name, url, category in channels:
