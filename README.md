@@ -53,7 +53,7 @@ All'interno di questo file, individua e modifica le seguenti righe:
 LINKMFP = "https://tuonome.hf.space"
 PASSWORD = "tuapassword"
 USR = "TUO_USER_GITHUB"
-BRANCH = "NOME_DEL_TUO_FORK"
+REPO = "NOME_DEL_TUO_FORK"
 ```
 
 Sostituisci:
