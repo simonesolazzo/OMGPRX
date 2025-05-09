@@ -53,7 +53,7 @@ All'interno di questo file, individua e modifica le seguenti righe:
 LINKMFP = "https://tuonome.hf.space"
 PASSWORD = "tuapassword"
 USR = "TUO_USER_GITHUB"
-BRANCH = "TUO_BRANCH_GITHUB"
+BRANCH = "NOME_DEL_TUO_FORK"
 ```
 
 Sostituisci:
@@ -61,7 +61,7 @@ Sostituisci:
 - LINKMFP con il link embedded del tuo MediaFlowProxy (come sopra).
 - PASSWORD con la password del tuo MediaFlowProxy (come sopra).
 - TUO_USER_GITHUB con il tuo nome utente GitHub.
-- TUO_BRANCH_GITHUB con il nome del branch del tuo repository GitHub (solitamente main o master ).
+- TUO_BRANCH_GITHUB con il nome del tuo fork, di default è OMGPRX.
 
 - 
 ## ⚙️ Configurazione e Esecuzione dei Workflow GitHub Actions
