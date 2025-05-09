@@ -63,7 +63,7 @@ Sostituisci:
 - TUO_USER_GITHUB con il tuo nome utente GitHub.
 - TUO_BRANCH_GITHUB con il nome del tuo fork, di default è OMGPRX.
 
-- 
+  
 ## ⚙️ Configurazione e Esecuzione dei Workflow GitHub Actions
 Dopo aver modificato e committato gli script sul tuo repository GitHub:
 
